@@ -1,0 +1,45 @@
+name: emocao_app
+description: "A new Flutter project."
+
+publish_to: 'none'
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.7.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+  path_provider: ^2.1.5
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  hive_generator: ^2.0.1
+  build_runner: ^2.4.15
+  intl: ^0.20.2
+  audioplayers: ^6.1.2
+  shared_preferences: ^2.5.2
+
+  flutter_lints: ^5.0.0
+
+flutter:
+  assets:
+    - assets/
+    - assets/alegria.mp3
+    - assets/tristeza.mp3
+    - assets/raiva.mp3
+    - assets/tedio.mp3
+    - assets/nojo.mp3
+    - assets/ansiedade.mp3
+    - assets/inveja.mp3
+    - assets/medo.mp3
+
+  uses-material-design: true
+
+
